@@ -1,0 +1,175 @@
+footer{
+    padding-top: 100px;
+    .footer-area{
+        background-image: url('https://htmldemo.net/pronia/pronia/assets/images/footer/bg/1-1920x465.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    .footer-container{
+        padding-top: 50px;
+        // padding-bottom: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .row{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            .col-social-media{
+                height: 277px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .footer-widget-item{
+                    display: grid;
+                    gap: 40px;
+                    .footer-widget-title{
+                        font-size: 20px;
+                    }
+                    .footer-widget-logo-list{
+                        display: flex;
+                        gap: 20px;
+                        li{
+                            border: 1px solid;
+                        padding: 10px;
+                        }
+                        li:hover{
+                            border: none;
+                            background-color: #8dba87;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .col{
+                height: 277px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .footer-widget-item{
+                    display: grid;
+                    gap: 20px;
+                    .footer-widget-title{
+                        font-size: 20px;
+                    }
+                    .footer-widget-logo-list{
+                        display: flex;
+                        gap: 20px;
+                        li{
+                            border: 1px solid;
+                        padding: 10px;
+                        }
+                    }
+                }
+            }
+            .col-help{
+                height: 277px;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                .footer-widget-item{
+                    display: grid;
+                    gap: 26px;
+                    .footer-widget-title{
+                        font-size: 20px;
+                    }
+                    .number{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 24px;
+                      }
+                }
+            }
+        }
+    }
+    .footer-copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        p{
+            color: #8dba87;
+            .fa-heart{
+                color: red;
+            }
+        }
+        span{
+            width: 55%;
+            border-top:1px solid #8dba87;
+        }
+    }
+    }
+}
+@media screen and (max-width:1337px) {
+    .main-slider-div{
+ 
+       height: 100%;
+       padding: 30px;
+       .container{
+         .row{
+        
+          flex-direction: column-reverse;
+          .col-txt{
+             text-align: center;
+             padding: 0;
+          }
+         }
+       }
+      
+    }
+    .section-cards{
+       .container{
+          padding: 100px;
+       }
+    }
+    footer .footer-area .footer-copyright {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       gap: 20px;
+   }
+ }
+ @media screen and (max-width:1337px) {
+    .main-slider-div{
+ 
+       height: 100%;
+       padding: 30px;
+       .container{
+         .row{
+        
+          flex-direction: column-reverse;
+          .col-txt{
+             text-align: center;
+             padding: 0;
+          }
+         }
+       }
+      
+    }
+    .section-cards{
+       .container{
+          padding: 100px;
+       }
+    }
+    footer .footer-area .footer-copyright {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       gap: 20px;
+   }
+ }
+ 
+ @media screen and (max-width:885px) {
+    footer .footer-area {
+        height: 100%;
+    }    
+    footer .footer-area .footer-container .row {
+      height: 100%;
+      flex-wrap: wrap;
+    }
+ }

@@ -1,0 +1,373 @@
+.search-box{
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 3;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+    .fa-x{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        color: white;
+    }
+    .container{
+        display: grid;
+        gap: 30px;
+        a{
+            .fa-magnifying-glass{
+                color: white;
+                font-size: 30px;
+            }
+        }
+        .searchbox-info{
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .searchbox{
+            width: 100%;
+            border-bottom: 1px solid white;
+            // border: none;
+            height: 100%;
+          
+            .search-inp{
+                text-align: center;
+                background-color: transparent;
+                width: 800px;
+                color: white;
+                font-size: 30px;
+                font-weight: 500;
+                padding-top: 55px;
+                padding-bottom: 55px;
+                border: none;
+                outline: none;
+
+            }
+        }
+    }
+}
+
+.Hello{
+    height: 50px;
+    background-color: #abd373;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // position: absolute;
+    // top: 0;
+    .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 60%;
+    }
+    .hello-right{
+      .hello-ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+          .USDliEvent{
+            display: block;
+                position: absolute;
+               background-color: white;
+               padding: 10px 20px 10px 20px;
+               border-radius:5px;
+          }
+        //   .USDliEvent{
+        //     position: absolute;
+        //     background-color: white;
+        //     padding: 10px 20px 10px 20px;
+        //     border-radius:5px; 
+        //     display: block;
+        //   }
+            .ul-dropdown-USD{
+                z-index: 2;
+               position: absolute;
+               display: none;
+               gap: 10px;
+               background-color: white;
+               padding: 10px 20px 10px 20px;
+               border-radius:5px; 
+              
+           
+            //    li{
+            
+            //    }
+            //    li:hover{
+                
+            //     background-color: #abd373;
+
+            //    }
+              .dropdown-item{
+                text-decoration: none;
+                color: black;
+                
+              }
+              .dropdown-item:hover{
+                color:#abd373;
+              }
+            }
+            .ul-dropdown-English{
+                z-index: 2;
+                position: absolute;
+                display: none;
+                gap: 10px;
+                background-color: white;
+                padding: 10px 20px 10px 20px;
+                border-radius:5px; 
+
+             
+             //    li{
+             
+             //    }
+             //    li:hover{
+                 
+             //     background-color: #abd373;
+ 
+             //    }
+               .dropdown-item{
+                 text-decoration: none;
+                 color: black;
+                 
+               }
+               .dropdown-item:hover{
+                 color:#abd373;
+               }
+             }
+            
+        }
+            li{
+                button{
+                    background-color: #abd373;
+                    color: white;
+                    border: none;
+                }
+            }
+        }
+    }
+nav{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+.navbar-Pronia{
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        height: 90%;
+        .navbar-number{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .phone-icon{
+                // border: 1px solid;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: #abd373;
+              
+                .fa-phone{
+                    color: white;
+                }
+            }
+        }
+        .phone-number{
+            .number{
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 600;
+                color: rgb(0, 0, 0);
+                padding-left: 20px;
+            }
+            .number:hover{
+                color: rgb(111, 221, 107);
+            }
+        }
+        .navbar-img{
+           
+         display: flex;
+         align-items: center;
+         justify-content: center;
+            
+            // background-image: url('https://htmldemo.net/pronia/pronia/assets/images/logo/dark.png');
+        }
+        .navbar-icons{
+           .fa-bars{
+            display: none;
+           }
+           i{
+            font-size: 20px;
+            padding: 0 7px 0 7px;
+           }
+           .fa-magnifying-glass:hover{
+           color: rgb(111, 221, 107);
+           }
+           .fa-user:hover{
+            color: rgb(111, 221, 107);
+            }
+            .fa-heart:hover{
+                color: rgb(111, 221, 107);
+                }
+                .fa-cart-shopping:hover{
+                    color: rgb(111, 221, 107);
+                    }
+                    .fa-bars:hover{
+                        color: rgb(111, 221, 107);
+                    }
+        }
+    }
+}
+.navbar-ul{
+    border-top: 1px solid #dee2e6;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    .ul{
+      width: 70%;
+      height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        li{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .submenu{
+                text-decoration: none;
+                color: black;
+                
+            }
+            span{
+                width: 100%;
+                border: 1px solid #abd373;
+                display: none;
+            }
+            ul{
+                margin-top: 20px;
+                padding: 10px;
+                position: absolute;
+                display: none;
+                background-color: white;
+                
+            }
+            .Shop-ul{
+                margin-top: 20px;
+                padding: 10px;
+                position: absolute;
+                background-color: white;
+                display: flex;
+                display: none;
+                .border{
+                    border-right:1px solid #abd373;
+                    padding: 10px;
+                    // display: none;
+                    h2{
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+                .border-none{
+                    padding: 10px;
+                    h2{
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+        
+        li:hover{
+            span{
+               display: block;
+               
+            }
+            .submenu{
+                color: #abd373;
+            }
+            ul{
+                -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+                display: block;
+
+            }
+            .Shop-ul{
+                -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+                flex-direction: row;
+                display: flex;
+                .border{
+a:hover{
+    color: #abd373;
+}
+                }
+                .border-none{
+                    a:hover{
+                        color: #abd373;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+.active{
+    display: grid !important;
+}
+@media screen and (max-width:890px) {
+  .Hello{
+    display: none;
+  }
+  nav .navbar-Pronia .container .navbar-number {
+    display: none;
+}
+nav .navbar-ul {
+   
+    display: none;
+   
+}
+.navbar-Pronia{
+    .container{
+        .navbar-icons{
+            display: flex;
+            gap: 20px;
+            font-size: 20px;
+            .fa-bars{
+                display: block !important;
+            }
+            .fa-user{
+                display: none;
+                 }
+                 .fa-heart{
+                    display: none;
+                     }
+                    
+                }
+        }
+    }
+}
+   
